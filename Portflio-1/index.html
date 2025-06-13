@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+<!-- icon  -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+<!-- j-query  -->
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+<!-- slide  -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<!-- fontawesame  -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+<!-- animation  -->
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+
+<!-- wow  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <aside class=" position-fixed ">
+        <div class="w-100 d-flex pt-2 pb-2 justify-content-center "><img src="image/logo.svg"></div>
+
+
+        <ul class="nav   d-flex justify-content-center mt-5" id="b">
+            <li class="nav-item ">
+                <div class=" ms-2  d-flex justify-content-center align-items-center rounded-4" id="a">  
+                <i class="bi bi-house-door " ></i>
+                </div>
+                <a href="" class="nav-link text-center fw-bold" style="color: rgb(83, 67, 67);">Home</a>
+            </li>
+            <li class="nav-item">
+                <div class=" ms-2  d-flex justify-content-center align-items-center rounded-4" id="c">  
+                    <i class="bi bi-person"></i>
+                    </div>
+                <a href="#section2" class="nav-link text-center fw-bold" style="color: rgb(83, 67, 67);">About</a></li>
+            <li class="nav-item">
+                <div class=" ms-2 d-flex justify-content-center align-items-center rounded-4" id="c">  
+                    <i class="bi bi-suitcase-lg"></i>
+                    </div>
+                <a href="#section3" class="nav-link text-center fw-bold" style="color: rgb(83, 67, 67);">Skills</a></li>
+            <li class="nav-item dropdown">
+                <div class=" ms-2  d-flex justify-content-center align-items-center rounded-4" id="c">  
+                    <i class="bi bi-window-split"></i>
+                    </div>
+                <a href="#section4" class="nav-link dropdown-toggle text-center fw-bold" data-bs-toggle="dropdown" style="color: rgb(83, 67, 67);">Portflio</a>
+                <ul class="dropdown-menu w-25">
+                    <li class=""><a href="" class="dropdown-item ">MY DESIGN</a></li>
+                </ul>
+            
+            </li>
+            <li class="nav-item">
+                <div class=" ms-2  d-flex justify-content-center align-items-center rounded-4" id="c">  
+                    <i class="bi bi-telephone"></i>
+                    </div>
+                <a href="#section5" class="nav-link text-center fw-bold" style="color: rgb(83, 67, 67);">Contact</a></li>
+
+        </ul>
+
+    </aside>
+
+    <section class="row" id="section1">
+        <div class="  w-50 h-100 d-flex justify-content-center align-items-center">
+            
+            <div class="   rounded-5" style=" width: 90%; height: 90%;"><img src="image/a..jpg" class="w-100 h-100 rounded-5"></div>
+        </div>
+        <div class="  w-50 h-100 d-flex justify-content-center flex-column p-5 wow animate__animated animate__backInRight">
+            <p class="fs-4 fw-bold" style="color: rgb(83, 67, 67);">👋 Hi, I’ m</p>
+            <h1 class="display-3 fw-bold " style="color: rgb(83, 67, 67);">Mishri Malaviya</h1>
+            <p class="fw-bold fs-5" style="color: rgb(83, 67, 67);">I'm a Fullstack Developer</p>
+            <p class="fs-5 pt-3">We work with professionals and leaders who want to build careers <br>that fulfil them intellectually, financially</p>
+            <button class="btn me-5  w-25" style="background-color: rgb(255, 218, 217); " data-bs-toggle="modal" data-bs-target="#cv">Download CV</button>
+
+            <div class="modal" id="cv">
+                <div class="modal-dialog">
+                    <div class="modal-content " style="background-color: rgb(83, 67, 67) ;">
+                        <div class="modal-header">
+                            <p class="text-light"><span class="fw-bolder fs-5" >Mishri Malaviya</span><br>8000-472-300<br>mishri1234@gmail.com</p>
+                            
+                            <div class="w-25 border border-1 me-3 h-100 rounded-2"><img src="image/a..jpg" class="w-100 rounded-2">
+                         
+                            </div>
+    
+                         
+    
+    
+                        </div>
+    
+                        <div class="modal-body">
+                            <h5 class="text-light text-decoration-underline">PERSONAL DATA</h5>
+    
+                            <!-- <p class="text-light  pt-3">Date of birth : 18th May 2005</p> -->
+                            <li class="text-light d-block pt-4">Date of birth&nbsp;&nbsp;&nbsp;&nbsp; : 18th may 2005</li>
+                            <li class="text-light d-block pt-2">Age &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 18</li>
+                            <li class="text-light d-block pt-3">Place of birth&nbsp;&nbsp;&nbsp; : Ahembadad , Gujarat </li>
+                            <li class="text-light d-block pt-3">Father Name &nbsp;&nbsp;&nbsp;&nbsp;: Jignesh Malaviya</li>
+                            <li class="text-light d-block pt-3">Mother Name &nbsp;&nbsp;: Priti Malaviya</li><br><br>
+    
+    
+                            <h5 class="text-light text-decoration-underline">Skills and Interest</h5>
+                            <p class="text-light pt-4">IT Field ( FullStack-Development )</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+
+
+    </section>
+
+    <section class="d-flex " id="section2" >
+    <div class=" w-50 h-100 d-flex flex-column justify-content-evenly p-4">
+        <div class="w-75 h-50  ms-4 wow animate__animated animate__flash">
+            <li class="fw-bold fs-4">ABOUT ME</li>
+            <p class="fw-bold pt-4">MY NAME IS MISHRI MALAVIYA</p>
+            <P class="fs-2  fw-bold">I AM AVAILABLE FOR DO PROJECTS</P>
+            <P class="" style="color: rgb(83, 67, 67);">Born in 2000, AB type living in USA. We provide on-screen<BR> design for websites and apps, as well as front-end<br> implementation. We will continue to pursue a wide range of<br> expressions and better code by pursuing our “likes”.</P>
+                <div class="w100  d-flex" id="we">
+                    <div class="w-50  d-flex align-items-center">
+                        <p class="counter display-4 fw-bold w-25">40
+                        </p>
+                        <div class="w-50 p-3 fs-5" style="color: rgb(83, 67, 67);">Projects
+                            Completed.</div>
+                    </div>
+                    <div class="w-50  d-flex align-items-center  h-100">
+                        <p class="counter display-4 fw-bold w-25">30
+                        </p>
+                        <div class="w-50 p-3 fs-5" style="color: rgb(83, 67, 67);">Satisfied
+                            Clients.</div>
+                    </div>
+
+                </div>
+        </div>
+<!-- 1BOX NU 2 BOX  -->
+        <div class="w-57 h-50  ms-4 overflow-auto">
+            <li class="fw-bold fs-4 pt-4">EXPERIENCE</li>
+            <div class="main w-100 h-100  d-flex justify-content-evenly flex-column ">
+                <div class="  rounded-4 d-flex bg-light mt-5 " style="height: 35%; width: 90%; border: 2px solid rgb(255, 218, 217);">
+                    <div class=" rounded-circle d-flex justify-content-center align-items-center mt-2 ms-2 " style="width: 50px; height: 50px; background-color: rgb(61, 50, 50);">
+                        <i class="bi bi-briefcase-fill fs-5" style="color: rgb(255, 218, 217);"></i>
+                    </div>
+                    <div class="w-75 ms-4 h-75 p-2">
+                    <span class="" style="color: rgb(40, 32, 32);">2019 - Present</span>
+                    <p class="fw-bold fs-5">Art Director - Facebook Inc
+                    </p>
+                    <p class="" style="color: rgb(40, 32, 32);">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                    </div>
+
+                
+                </div> 
+
+                <div class="  rounded-4 d-flex bg-light mt-2 " style="height: 35%; width: 90%; border: 2px solid rgb(255, 218, 217);">
+                    <div class=" rounded-circle d-flex justify-content-center align-items-center mt-2 ms-2 " style="width: 50px; height: 50px; background-color: rgb(61, 50, 50);">
+                        <i class="bi bi-briefcase-fill fs-5" style="color: rgb(255, 218, 217);"></i>
+                    </div>
+                    <div class="w-75 ms-4 h-75 p-2">
+                    <span class="" style="color: rgb(40, 32, 32);">2019 - Present</span>
+                    <p class="fw-bold fs-5">Art Director - Facebook Inc
+                    </p>
+                    <p class="" style="color: rgb(40, 32, 32);">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                    </div>
+
+                
+                </div> 
+
+                <div class="  rounded-4 d-flex bg-light mt-2 " style="height: 35%; width: 90%; border: 2px solid rgb(255, 218, 217);">
+                    <div class=" rounded-circle d-flex justify-content-center align-items-center mt-2 ms-2 " style="width: 50px; height: 50px; background-color: rgb(61, 50, 50);">
+                        <i class="bi bi-briefcase-fill fs-5" style="color: rgb(255, 218, 217);"></i>
+                    </div>
+                    <div class="w-75 ms-4 h-75 p-2">
+                    <span class="" style="color: rgb(40, 32, 32);">2019 - Present</span>
+                    <p class="fw-bold fs-5">Art Director - Facebook Inc
+                    </p>
+                    <p class="" style="color: rgb(40, 32, 32);">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                    </div>
+
+                
+                </div> 
+            </div>
+        </div>
+    </div>
+
+
+<!-- 2BOX  -->
+
+        <div class=" w-50 h-100">
+            <div class=" border-primary w-100 h-50 d-flex ">
+                <!-- 1div  -->
+                <div class="  h-100 d-flex justify-content-center align-items-center"     style="width: 55%;">
+                  <div class="img  h-75 rounded-5 border border-1" style="width: 97%;">
+                  <img src="image/b..jpg" class="w-100 h-100 rounded-5">
+                  </div>
+                
+                </div>
+                <!-- over  -->
+                <!-- 2 div  -->
+                <div class=" h-100 border-primary d-flex justify-content-evenly  align-items-center flex-column"style="width: 45%;">
+                    <div class="  rounded-4 bg-light d-flex  align-items-center" style="height: 15%; width: 88%; border: 2px solid rgb(255, 218, 217);">
+                        <div class=" rounded-circle d-flex justify-content-center align-items-center  ms-2 " style="width: 50px; height: 50px; background-color: rgb(243, 234, 235);">
+                            <i class="bi bi-linkedin fs-5" style="color: rgb(40, 32, 32);"></i>
+
+                        </div>
+                        <span class="fw-bold  ps-3" style="color: rgb(40, 32, 32);"><a href="https://www.linkedin.com/feed/" class="text-decoration-none text-dark">Linkedin</a></span>
+                    </div>
+
+                    <div class="  rounded-4 bg-light d-flex  align-items-center" style="height: 15%; width: 88%; border: 2px solid rgb(255, 218, 217);">
+                        <div class=" rounded-circle d-flex justify-content-center align-items-center  ms-2 " style="width: 50px; height: 50px; background-color: rgb(243, 234, 235);">
+                            <i class="bi bi-envelope-fill fs-5" style="color: rgb(40, 32, 32);"></i>
+
+                        </div>
+                        <span class="fw-bold  ps-3" style="color: rgb(40, 32, 32);">Mail me</span>
+                    </div>
+
+                    <div class="  rounded-4 bg-light d-flex  align-items-center" style="height: 15%; width: 88%; border: 2px solid rgb(255, 218, 217);">
+                        <div class=" rounded-circle d-flex justify-content-center align-items-center  ms-2 " style="width: 50px; height: 50px; background-color: rgb(243, 234, 235);">
+                            <i class="bi bi-whatsapp fs-5" style="color: rgb(40, 32, 32);"></i>
+
+                        </div>
+                        <!-- <span class="fw-bold  ps-3" style="color: rgb(40, 32, 32);">Whatsapp</span> -->
+                        <a class="btn btn fw-bold border-light ps-3" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                            Whatsapp
+                          </a>
+
+                          <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                            <div class="offcanvas-header">
+                              <div class="w-100 d-flex justify-content-center align-items-center" style="background-color: rgb(34, 46, 51); height: 70px;">
+                                <div class="border border-1 border-light rounded-circle " style="width: 45px; height: 45px;"><img src="image/a..jpg" class="w-100 h-100 rounded-circle"></div>
+                                <h5 class="text-light ps-2 pt-1" style="font-size: 17px;">Mishri Malaviya</h5>
+                                <i class="fa-solid fa-video ms-5 ps-4" style="color: #ffffff;"></i>
+                                <i class="fa-solid fa-phone ms-4 " style="color: #ffffff; "></i>
+                                <i class="fa-solid fa-ellipsis-vertical ms-4" style="color: #ffffff;"></i>
+                              <!-- <button type="button" class="btn-close " data-bs-dismiss="offcanvas" aria-label="Close"></button> -->
+                            </div>
+                            </div>
+                            <div class="offcanvas-body " style="position: relative; bottom: 32px;">
+                              <div class="border border-dark" style=" height: 600px;" id="wp">
+
+                                <div class=" text-secondary rounded-2 w-25 m-auto mt-1" style="background-color: rgb(34, 46, 51); font-size: 13px;">15 March 2024</div>
+                                <div class="text-warning  w-75 rounded-2 text-center m-auto mt-3" style="font-size: 10px; background-color: rgb(34, 46, 51);">Messages are end-to-end encrypted. No one outside of this chat, not even WhatsApp, can read or listen to them. Click to learn more</div>
+
+
+                                
+                                 <div class="rounded-circle d-flex justify-content-center align-items-center" style="width: 40px; height: 40px; background-color: rgb(0, 176, 156); position:absolute; top: 570px; left: 335px;">
+                                    <i class="fa-solid fa-microphone" style="color: #ffffff;">
+                                </i></div>
+                               <!-- <img src="image/wp.jpg" class="w-100 h-100"> -->
+                               <div class="  w-100   " style="margin-top: 470px;">
+                               
+                               <input type="text" class=" rounded-5 text-light border-0  " placeholder="Message" style="background-color: rgb(34, 46, 51); padding-left: 29px; height: 40px; width: 85%; ">
+                               <i class="fa-solid fa-face-smile pe-4" style="color: #aaabac; position: relative; right: 305px;"></i>
+
+                               <i class="fa-solid fa-paperclip " style="color: #bababa; position: relative; bottom: 30px; left: 223px; "></i>
+                               <i class="bi bi-currency-rupee" style="color: #bababa; position: relative;  bottom: 30px; left: 233px;"></i>
+                               <i class="bi bi-camera-fill" style="color: #bababa; position: relative;left: 240px; bottom: 32px; "></i>
+
+                              
+
+                               
+                              </div>
+                              </div>
+                              <!-- <div class="dropdown mt-3">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                                  Dropdown button
+                                </button>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#">Action</a></li>
+                                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                              </div> -->
+                            </div>
+                          </div>
+
+
+                          <!-- off canvas over  -->
+
+
+                    </div>
+
+                    <div class="  rounded-4 bg-light d-flex  align-items-center" style="height: 15%; width: 88%; border: 2px solid rgb(255, 218, 217);">
+                        <div class=" rounded-circle d-flex justify-content-center align-items-center  ms-2 " style="width: 50px; height: 50px; background-color: rgb(243, 234, 235);">
+                            <i class="bi bi-map-fill fs-5" style="color: rgb(40, 32, 32);"></i>
+
+                        </div>
+                        <span class="fw-bold  ps-3" style="color: rgb(40, 32, 32);">Meet me</span>
+                    </div>
+
+                    <div class="  rounded-4 bg-light d-flex  align-items-center" style="height: 15%; width: 88%; border: 2px solid rgb(255, 218, 217);">
+                        <div class=" rounded-circle d-flex justify-content-center align-items-center  ms-2 " style="width: 50px; height: 50px; background-color: rgb(243, 234, 235);">
+                            <i class="bi bi-file-earmark-pdf-fill fs-5" style="color: rgb(40, 32, 32);"></i>
+
+                        </div>
+                        <span class="fw-bold  ps-3" style="color: rgb(40, 32, 32);">Resume</span>
+                    </div>
+                </div>
+                <!-- over -->
+            </div>
+
+            <!-- 2box  -->
+            <div class=" w-100 h-50 p-5 wow animate__animated animate__flash">
+                <li class="fw-bold fs-4 pt-4">SKILLS</li>
+                <!-- <progress value="100"></progress> -->
+                <p class="fw-bold ps-2 pt-4">HTML5</p>
+                <div class="progress">
+                    
+                    <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 92% ; background-color: rgb(40, 32, 32);" aria-valuenow="75" aria-valuemin="0" aria-valuemax="94"></div>
+                  </div>    
+                  <p class="fw-bold ps-2 pt-4">CSS3</p>
+
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 75% ; background-color: rgb(40, 32, 32);" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <p class="fw-bold ps-2 pt-4">Media-Query</p>
+
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 80%;  background-color: rgb(40, 32, 32);" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <p class="fw-bold ps-2 pt-4">J-Query</p>
+
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 60%;  background-color: rgb(40, 32, 32);" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="d-flex justify-content-center flex-column " id="section3">
+        <h2 class="fw-bold ps-5 fs-2 pt-5">MY SKILLS</h2>
+        <hr class="ms-5" style="width: 10%; border:2px solid rgb(249, 208, 207);">
+
+        <div class=" wow animate__animated animate__rotateInDownLeft  m-auto d-flex justify-content-between flex-wrap" style="width: 90%; height: 80%;">
+                 <div class="rounded-3 p-4" style="width: 32.5%; height:
+                48%; border:2px solid rgb(249, 208, 207)  ; background-color: rgb(245, 240, 240);">
+                     <div class="   rounded-3 fs-3 d-flex justify-content-center align-items-center" style="height: 30%; background-color: rgb(249, 208, 207); width: 19%;"><i class="bi bi-filetype-html style="color: rgb(40, 32, 32);"></i></div>
+                     <p class="fs-5 fw-bold pt-3">HTML5</p>
+                     <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+
+
+
+                  <div class="rounded-3 p-4" style="width: 32.5%; height:
+                  48%; border:2px solid rgb(249, 208, 207) ;  background-color: rgb(245, 240, 240);">
+                    <div class="   rounded-3 fs-3 d-flex justify-content-center align-items-center" style="height: 30%; background-color: rgb(249, 208, 207); width: 19%;"><i class="bi bi-filetype-css style="color: rgb(40, 32, 32);"></i></div>
+                    <p class="fs-5 fw-bold pt-3">CSS3</p>
+                    <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>  
+                
+                </div>
+                    <div class=" rounded-3 p-4" style="width: 32.5%; height:
+                    48%; border:2px solid rgb(249, 208, 207) ;  background-color: rgb(245, 240, 240);">
+                    
+                    <div class="  rounded-3 fs-3 d-flex justify-content-center align-items-center" style="height: 30%; background-color: rgb(249, 208, 207); width: 19%;"><i class="bi bi-columns" style="color: rgb(40, 32, 32);"></i></div>
+                    <p class="fs-5 fw-bold pt-3">Media-Query
+                    </p>
+                    <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                      <div class="rounded-3 p-4" style="width: 32.5%; height:
+                      48%; border:2px solid rgb(249, 208, 207) ;  background-color: rgb(245, 240, 240);">
+                    <div class="  rounded-3 fs-3 d-flex justify-content-center align-items-center" style="height: 30%; background-color: rgb(249, 208, 207); width: 19%;"><i class="bi bi-sliders style="color: rgb(40, 32, 32);"></i></div>
+                    <p class="fs-5 fw-bold pt-3">J-Query</p>
+                    <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>  
+                    
+                    </div>
+                      <div class="rounded-3 p-4" style="width: 32.5%; height:
+                      48%; border:2px solid rgb(249, 208, 207) ;  background-color: rgb(245, 240, 240);">
+                    <div class="   rounded-3 fs-3 d-flex justify-content-center align-items-center" style="height: 30%; background-color: rgb(249, 208, 207); width: 19%;"><i class="bi bi-phone" style="color: rgb(40, 32, 32);"></i></div>
+                    <p class="fs-5 fw-bold pt-3">Bootstrap</p>
+                    <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>  
+                    </div>
+                    <!-- last  -->
+                        <div class="rounded-3 p-4" style="width: 32.5%; height:
+                        48%; border:2px solid rgb(249, 208, 207) ;  background-color: rgb(245, 240, 240);">
+                        
+                        <div class="   rounded-3 fs-3 d-flex justify-content-center align-items-center" style="height: 30%; background-color: rgb(249, 208, 207); width: 19%;"><i class="bi bi-c-circle style="color: rgb(40, 32, 32);"></i></div>
+                        <p class="fs-5 fw-bold pt-3">C Lanugauge
+                        </p>
+                        <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+        </div>
+    </section>
+
+    <section class="d-flex justify-content-center flex-column " id="section3">
+        <h2 class="fw-bold ps-5 fs-2 pt-5">MY PORTFOLIO
+        </h2>
+        <hr class="ms-5" style="width: 10%; border:2px solid rgb(249, 208, 207);">
+
+        <div class="  m-auto d-flex justify-content-between flex-wrap" style="width: 90%; height: 80%;">
+                 <div class="rounded-3 p-3 overflow-auto wow animate__animated animate__zoomIn" style="width: 32.5%; height:
+                48%; border:2px solid rgb(249, 208, 207)  ; background-color: rgb(255, 255, 255);">
+                <img src="image/screencapture-file-D-mishri-FULLSTACK-TASKS-mediaquery-potoflio-2-web-index-html-2024-02-20-10_43_22.png" class="w-100   rounded-3">
+                    
+                </div>
+
+
+
+                  <div class="rounded-3 overflow-auto p-3 wow animate__animated animate__zoomIn" style="width: 32.5%; height:
+                  48%; border:2px solid rgb(249, 208, 207) ;  background-color: rgb(255, 255, 255);">
+                <img src="image/y..jpg" class="w-100  rounded-3">
+
+                    
+                
+                </div>
+                    <div class="rounded-3 p-3 overflow-auto wow animate__animated animate__zoomIn"  style="width: 32.5%; height:
+                    48%; border:2px solid rgb(249, 208, 207) ;  background-color: rgb(255, 255, 255);">
+                <img src="image/l..jpg" class="w-100  rounded-3">
+
+                    
+
+                </div>
+                      <div class="rounded-3 p-3 overflow-auto wow animate__animated animate__zoomIn" style="width: 32.5%; height:
+                      48%; border:2px solid rgb(249, 208, 207) ;  background-color: rgb(255, 255, 255);">
+                <img src="image/r..jpg" class="w-100  rounded-3">
+
+                   
+                    
+                    </div>
+                      <div class="rounded-3 overflow-auto p-3 wow animate__animated animate__zoomIn" style="width: 32.5%; height:
+                      48%; border:2px solid rgb(249, 208, 207) ;  background-color: rgb(255, 255, 255);">
+                <img src="image/t..jpg" class="w-100  rounded-3">
+
+
+                    </div>
+                    <!-- last  -->
+                        <div class="rounded-3 overflow-auto p-3 wow animate__animated animate__zoomIn" style="width: 32.5%; height:
+                        48%; border:2px solid rgb(249, 208, 207) ;  background-color: rgb(255, 255, 255);">
+                <img src="image/screencapture-file-D-mishri-FULLSTACK-TASKS-mediaquery-potoflio-3-web-index-html-2024-02-11-22_34_50.png" class="w-100  rounded-3">
+
+                        
+                    </div>
+        </div>
+    </section>
+
+    <section class="d-flex flex-column " id="section4">
+        <h2 class="fw-bold ps-5 fs-2 pt-5">TESTIMONIALS</h2>
+        <hr class="ms-5" style="width: 10%; border:2px solid rgb(249, 208, 207);">
+        <div class="  m-auto d-flex justify-content-between" style="width: 90% ; height: 100%;">
+            <!-- <div class="border border-1 rounded-4" style="width: 32%; height: 80%;"></div>
+            <div class="border border-1 rounded-4"  style="width: 32%; height: 80%;"></div>
+            <div class="border border-1 rounded-4"  style="width: 32%; height: 80%;"></div> -->
+
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class=" mt-5 rounded-4 d-flex justify-content-center align-items-center flex-column" style="width: 100%; height: 80%; border: 2px solid rgb(249, 208, 207);">
+                        <div class="border border-1 rounded-circle mb-3 " style="width: 100px; height: 100px;"><img src="image/z..jpg " class="w-100 h-100 rounded-circle" ></div>
+                        <h3>Customers and interested parties engaged.</h3>
+                        <p class="">“I found it easy to capture my ideas and sketch visuals to sheare with my clints on the go”</p>
+                        <div class=""><h6>Jennifer Lutheran</h6>
+                            <span>CEO at pxdraft</span>
+                        </div>
+                    </div>
+                </div>
+                  <div class="swiper-slide">
+                    <div class=" mt-5 rounded-4 d-flex justify-content-center align-items-center flex-column" style="width: 100%; height: 80%; border: 2px solid rgb(249, 208, 207);">
+                        <div class="border border-1 rounded-circle mb-3 " style="width: 100px; height: 100px;"><img src="image/n..jpg " class="w-100 h-100 rounded-circle" ></div>
+                        <h3>Customers and interested parties engaged.</h3>
+                        <p class="">“I found it easy to capture my ideas and sketch visuals to sheare with my clints on the go”</p>
+                        <div class=""><h6>Jennifer Lutheran</h6>
+                            <span>CEO at pxdraft</span>
+                        </div>
+                    </div>
+                </div>
+                  <div class="swiper-slide">
+                    <div class=" mt-5 rounded-4 d-flex justify-content-center align-items-center flex-column" style="width: 100%; height: 80%; border: 2px solid rgb(249, 208, 207);">
+                        <div class="border border-1 rounded-circle mb-3 " style="width: 100px; height: 100px;"><img src="image/c..jpg " class="w-100 h-100 rounded-circle" ></div>
+                        <h3>Customers and interested parties engaged.</h3>
+                        <p class="">“I found it easy to capture my ideas and sketch visuals to sheare with my clints on the go”</p>
+                        <div class=""><h6>Jennifer Lutheran</h6>
+                            <span>CEO at pxdraft</span>
+                        </div>
+                    </div>
+                </div>
+                  <div class="swiper-slide">
+                    <div class=" mt-5 rounded-4 d-flex justify-content-center align-items-center flex-column" style="width: 100%; height: 80%; border: 2px solid rgb(249, 208, 207);">
+                        <div class="border border-1 rounded-circle mb-3 " style="width: 100px; height: 100px;"><img src="image/z..jpg " class="w-100 h-100 rounded-circle" ></div>
+                        <h3>Customers and interested parties engaged.</h3>
+                        <p class="">“I found it easy to capture my ideas and sketch visuals to sheare with my clints on the go”</p>
+                        <div class=""><h6>Jennifer Lutheran</h6>
+                            <span>CEO at pxdraft</span>
+                        </div>
+                    </div>
+                </div>
+                  <div class="swiper-slide">
+                    <div class=" mt-5 rounded-4 d-flex justify-content-center align-items-center flex-column" style="width: 100%; height: 80%; border: 2px solid rgb(249, 208, 207);">
+                        <div class="border border-1 rounded-circle mb-3 " style="width: 100px; height: 100px;"><img src="image/n..jpg " class="w-100 h-100 rounded-circle" ></div>
+                        <h3>Customers and interested parties engaged.</h3>
+                        <p class="">“I found it easy to capture my ideas and sketch visuals to sheare with my clints on the go”</p>
+                        <div class=""><h6>Jennifer Lutheran</h6>
+                            <span>CEO at pxdraft</span>
+                        </div>
+                    </div>
+                </div>
+                  <div class="swiper-slide">
+                    <div class=" mt-5 rounded-4 d-flex justify-content-center align-items-center flex-column" style="width: 100%; height: 80%; border: 2px solid rgb(249, 208, 207);">
+                        <div class="border border-1 rounded-circle mb-3 " style="width: 100px; height: 100px;"><img src="image/c..jpg " class="w-100 h-100 rounded-circle" ></div>
+                        <h3>Customers and interested parties engaged.</h3>
+                        <p class="">“I found it easy to capture my ideas and sketch visuals to sheare with my clints on the go”</p>
+                        <div class=""><h6>Jennifer Lutheran</h6>
+                            <span>CEO at pxdraft</span>
+                        </div>
+                    </div>
+                </div>
+                 
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+
+
+        </div>
+    </section>
+
+    <section class="d-flex" id="section5">
+        <div class=" w-50 h-100">
+            <div class=" w-100 h-75 p-5">
+                <p class="fw-bold fs-3">Let’s Discuss Your Project</p>
+                <div class=" w-75 d-flex align-items-center" style="height: 30%;">
+                    <div class=" rounded-circle d-flex justify-content-center align-items-center mb-4 ms-2 " style="width: 50px; height: 50px; background-color: rgb(61, 50, 50);">
+                        <i class="bi bi-chat-left-dots-fill fs-5" style="color: rgb(255, 218, 217);"></i>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center ps-4">
+                    <span class="fw-bold">Chat to us</span>
+                    <span class="" style="color: rgb(40, 32, 32);">Our friendly team is there to help</span>
+                    <span class="fw-bold" style="color: rgb(40, 32, 32);">mishri1234@gmail.com</span>
+                    </div>
+                </div>
+
+
+                <div class=" w-75 mt-2 d-flex align-items-center" style="height: 30%;">
+                    <div class=" rounded-circle d-flex justify-content-center align-items-center mb-4 ms-2 " style="width: 50px; height: 50px; background-color: rgb(61, 50, 50);">
+                        <i class="bi bi-compass-fill fs-5" style="color: rgb(255, 218, 217);"></i>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center ps-4">
+                    <span class="fw-bold">Visit Us</span>
+                    <span class="" style="color: rgb(40, 32, 32);">Come say hello at our office HQ.</span>
+                    <span class="fw-bold" style="color: rgb(40, 32, 32);">Raiya Road ,Bapasitram <br> Chowk Rajkot</span>
+                    </div>
+                </div>
+
+
+                <div class=" w-75 mt-2 d-flex  align-items-center" style="height: 30%;">
+                    <div class=" rounded-circle d-flex justify-content-center align-items-center mb-4 ms-2 " style="width: 50px; height: 50px; background-color: rgb(61, 50, 50);">
+                        <i class="bi bi-phone fs-5" style="color: rgb(255, 218, 217);"></i>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center ps-4">
+                    <span class="fw-bold">Call us</span>
+                    <span class="" style="color: rgb(40, 32, 32);">Mon-Fri from 8am to 5pm</span>
+                    <span class="fw-bold" style="color: rgb(40, 32, 32);">+01 (555) 000-0000</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" ms-3 d-flex align-items-center justify-content-center  " style="width: 90%; height: 25%;" >
+                <div class=" rounded-3  h-100" style=" width: 90%; border: 2px solid rgb(249, 208, 207);">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.659531833582!2d70.77629327506908!3d22.290883379693337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959cb147744699d%3A0x2060a6cbc4a6e0bd!2sRed%20%26%20White%20Multimedia%20Education!5e0!3m2!1sen!2sin!4v1708347630712!5m2!1sen!2sin" width="100%" height="100%" class="rounded-4" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+        <div class=" w-50 h-100 d-flex  justify-content-center align-items-center wow animate__animated animate__pulse">
+            <div class="  rounded-4 p-5 pt-1 bg-light" style="height: 90%; width: 85%; border: 2px solid rgb(249, 208, 207);"><br>
+            <spam class="fw-bold fs-2">Got Ideas? We've got the skills. Let's team up.</spam><br>
+            <spam class="">Tell us more about yourself and what you're got in mind.</spam><br><bR><br>
+            <label class="form-label">First Name</label>
+            <label class="form-label "  style="padding-left: 170px;" >Your Email</label>
+
+            
+            <br>
+            <input class="rounded-3 ps-2" placeholder="Name* " style=" border: 2px solid rgb(249,208,207) ; width: 46.70%; height: 6%;">
+            <input class="rounded-3 ps-2 ms-4" type="email" placeholder="Email* " style=" border: 2px solid rgb(249,208,207) ; width: 46.70%; height: 6%;"><br><Br>
+            <label class="form-label">Subject</label><br>
+            <input class="rounded-3 ps-2 form-control" placeholder="Subject* " style=" border: 2px solid rgb(249,208,207) ;  height: 6%;"><br>
+            <label class="form-label "  >Message</label><br>
+            <textarea class="form-control rounded-3" rows="4px" placeholder="Your Message*" style="border: 2px solid rgb(249, 208, 207);"></textarea><br>
+            <button type="button" class="btn rounded-3 fw-bold form-control" style=" height: 60px; background-color: rgb(249, 208, 207);">Send Message</button>
+
+
+
+
+            
+            </div>
+    
+        </div>
+
+    </section>
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    $('.counter').counterUp({
+    delay: 10,
+    time: 1000
+});
+</script>
+
+<script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      freeMode: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+  <script>new WOW().init();</script>
+</html>

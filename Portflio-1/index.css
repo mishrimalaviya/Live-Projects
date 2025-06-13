@@ -1,0 +1,86 @@
+aside{
+    height: 735px;
+    width: 130px;
+    background-color: rgb(243, 234, 235);
+}
+#wp{
+    background-image: url(image/wp.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#a{
+    height: 35%;
+    width: 80%;
+    background-color: rgb(255, 218, 217);
+}
+
+#b{
+    height: 60%;
+}
+#c{
+    height: 35%;
+    width: 70%;
+  
+}
+
+#c:hover{
+    background-color: rgb(255, 218, 217); 
+}
+#section1{
+    width: 91%;
+    margin-left: 130px;
+    height: 740px;
+    /* border: 1px solid black; */
+}
+#section2{
+    width: 91%;
+    margin-left: 130px;
+    height: 1100px;
+    /* border: 1px solid black; */
+    background-color: rgb(245, 240, 240);
+}
+#we{
+    height: 150px;
+}
+#section3{
+    width: 91%;
+    height: 700px;
+    margin-left: 130px;
+    /* border: 1px solid black; */
+}
+#section4{
+    width: 91%;
+    height: 700px;
+    margin-left: 130px;
+    /* border: 1px solid black; */
+}
+#section5{
+    width: 91%;
+    height: 800px;
+    margin-left: 130px;
+    /* border: 1px solid black; */
+    background-color: rgb(243, 234, 235);
+}
+
+/* slider  */
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
