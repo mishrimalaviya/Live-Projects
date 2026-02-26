@@ -1,4 +1,17 @@
-# Personal Portfolio 
+# Personal Portfolio
+
+## Live Demo  
+You can view the live version of the portfolio here:  
+🔗 **https://mmyyportfolio.netlify.app/**
+
+---
+
+## Getting Started
+
+1. **Install Dependencies**
+
+```bash
+npm i
 
 ## Getting Started
 
